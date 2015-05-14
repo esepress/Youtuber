@@ -38,19 +38,19 @@ html, body {
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
-	color: #de2920;
-	transition: 0.4s ease all;
-	outline: none;
+    color: #6B6D6E;
+    transition: 0.4s ease all;
+    outline: none;
 }
 a:hover,a:active,a:focus{
-	text-decoration: none;
-	color: #e66f69;
-	opacity: 0.9;
-	outline: none;
+    text-decoration: none;
+    color: rgba(231, 76, 60, 1);
+    opacity: 0.9;
+    outline: none;
 }
 .btn {
     color: #fff;
@@ -90,11 +90,11 @@ a:hover,a:active,a:focus{
 }
 
 .section-title {
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 3.6em;
-	letter-spacing: 1px;
-	word-spacing: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 3.6em;
+    letter-spacing: 1px;
+    word-spacing: 10px;
 }
 
 .owl-theme .owl-controls .owl-page span {
@@ -106,19 +106,19 @@ a:hover,a:active,a:focus{
 /////////////////////////////////////////////////////////////////////*/
 
 .header-left {
-	width: 50%;
-	float: left;
-	background-color: #EC6126;
-	position: absolute;
-	height: 100%;
+    width: 50%;
+    float: left;
+    background-color: #EC6126;
+    position: absolute;
+    height: 100%;
 }
 
 .header-text {
-	color: #fff;
-	font-weight: 200;
-	margin: 26% 0%;
-	text-align: right;
-	padding-right: 20px;
+    color: #fff;
+    font-weight: 200;
+    margin: 26% 0%;
+    text-align: right;
+    padding-right: 20px;
 }
 
 .welcome {
@@ -126,8 +126,8 @@ a:hover,a:active,a:focus{
 }
 
 .header-title {
-	font-weight: 800;
-  	margin: 10px 0px 15px 0px;
+    font-weight: 800;
+    margin: 10px 0px 15px 0px;
 }
 
 .author {
@@ -138,20 +138,20 @@ a:hover,a:active,a:focus{
 }
 
 .subscribe {
-	margin-top: 12px;
-	float: right;
+    margin-top: 12px;
+    float: right;
 }
 
 .subscribe-text {
-	font-size: 1.15em;
+    font-size: 1.15em;
 }
 
 .header-right {
     background: url(../img/header-right.png);
-	width: 50%;
-	float: right;
-	background-color: #030303;
-	height: 100%;
+    width: 50%;
+    float: right;
+    background-color: #030303;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 22%;
@@ -200,10 +200,10 @@ a:hover,a:active,a:focus{
     min-width: 240px;
     right: 0;
     left: auto;
-    border: 1px solid #000;
+    border: 1px solid #6B6D6E;
     box-shadow: none;
     border-radius: 0px;
-    margin-top: 5px;
+    margin-top: 0px;
 }
 .dropdown-menu ul {
     list-style: none;
@@ -227,8 +227,7 @@ a:hover,a:active,a:focus{
     height: 0; 
     border-left: 8px solid transparent;
     border-right: 8px solid transparent;
-    
-    border-bottom: 8px solid white;
+    border-bottom: 7px solid #fff;
     float: right;
     margin-top: -5%;
     margin-right: 23px;
@@ -253,10 +252,6 @@ a:hover,a:active,a:focus{
     background: #ffffff;
     width:100%;
     position:relative;
-}
-
-.latest_videos .container {
-    color:#9da3a6;
 }
 
 .latest_videos .link_more {
@@ -323,21 +318,21 @@ a:hover,a:active,a:focus{
 
 /*
 =======================================================================
-		 5. About Youtuber
+         5. About Youtuber
 ========================================================================
 */
 
 #about {
-	padding: 7.5em 0em;
-	background-color: rgba(225, 231, 231, 0.33);
+    padding: 7.5em 0em;
+    background-color: rgba(225, 231, 231, 0.33);
 }
 
 .about-content {
-	margin-top: 4em;
+    margin-top: 4em;
 }
 
 .about-description p {
-	line-height: 1.76em;
+    line-height: 1.76em;
 }
 
 .find-fb {
@@ -353,11 +348,11 @@ a:hover,a:active,a:focus{
 }
 
 .social-icon {
-	color: #fff;
-	font-size: 62px;
-  	position: relative;
-  	width: 90px;
-  	height: 95px;
+    color: #fff;
+    font-size: 62px;
+    position: relative;
+    width: 90px;
+    height: 95px;
 }
 
 .find-fb:hover,
@@ -416,7 +411,6 @@ a:hover,a:active,a:focus{
     width: 20%;
     position: relative;
     float: left;
-    padding: 1px;
 }
 
 .effect-zoe:hover figcaption, 
@@ -484,21 +478,21 @@ a:hover,a:active,a:focus{
 
 /*
 ======================================================================
-				 7. Sponsors
+                 7. Sponsors
 ======================================================================
 */
 
 #sponsor {
-	padding: 7.5em 0em;
-	background-color: rgba(225, 231, 231, 0.33);
+    padding: 7.5em 0em;
+    background-color: rgba(225, 231, 231, 0.33);
 }
 
 .sponsor-content {
-	margin-top: 4em;
+    margin-top: 4em;
 }
 
 .sponsor-img {
-	border: 1px solid #E7E2E2;
+    border: 1px solid #E7E2E2;
 }
 
 .sponsor-img img {
@@ -623,13 +617,14 @@ input[type="submit"] {
     background: #de2920;
     border: 1px solid transparent;
     width: 100%;
-    padding: 14px;
+    padding: 13px;
     -webkit-transition: 0.5s background linear;
        -moz-transition: 0.5s background linear;
         -ms-transition: 0.5s background linear;
          -o-transition: 0.5s background linear;
             transition: 0.5s background linear;
     font-weight: bold;
+    margin-top: 3px;
 }
 
 .like-box {
@@ -681,14 +676,39 @@ footer {
         text-align: center;
         float: none;
     }
+}
+
+@media (min-width: 655px) and (max-width: 1024px) {
+    .grid {
+        width: 25%;
+    }
+
+    .grid figcaption a img {
+        margin-top: 26px;
+    }
+
+}
+
+@media (max-width: 540px) {
+    .grid {
+        width: 50%;
+    }
+
+    .grid figcaption a img {
+        margin-top: 18px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 400px) {
 
     .grid figcaption a img {
         margin-top: 0px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .grid figcaption a img {
-        margin-top: 18px;
+@media (min-width: 1025px){
+    .grid
+    {
+        height: 219px;
     }
 }
