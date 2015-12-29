@@ -346,6 +346,17 @@ a:hover,a:active,a:focus{
 .find-link {
     background-color: #0177B5;
 }
+.find-youtube {
+    background-color: #f00;
+}
+.social-icon.find-youtube i {
+    padding-bottom: 5px;
+}
+.periscope_link img {
+    max-height: 70px;
+    vertical-align: bottom;
+    padding-left: 5px;
+}
 
 .social-icon {
     color: #fff;
@@ -355,9 +366,11 @@ a:hover,a:active,a:focus{
     height: 95px;
 }
 
+
 .find-fb:hover,
 .find-twit:hover,
-.find-link:hover {
+.find-link:hover,
+.find-youtube:hover {
     background-color: #fff;
     box-shadow: 0 2px 5px 0 #333;
     -webkit-transition: all 0.3s ease-in-out;
@@ -376,6 +389,9 @@ a:hover,a:active,a:focus{
 
 .find-link:hover {
     color: #0177B5;
+}
+.find-youtube:hover {
+    color: #f00;
 }
 
 .social-icon i {
